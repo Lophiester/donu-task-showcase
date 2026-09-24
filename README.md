@@ -71,16 +71,11 @@ sequenceDiagram
 
 **MVVM with Clean Architecture.** Data, domain and presentation are separate layers.
 
-```
-Donu/
-├── Core/          # Extensions, Services, Utils
-├── Models/        # SwiftData models
-├── ViewModel/     # Screen logic, tested with unit tests
-└── Views/         # Today, Home, Category, Item, Stats, TalkToDonu,
-                   # Onboarding, Paywall, Settings, custom loader
-DonuWidget/        # WidgetKit extension
-DonuTests/         # ViewModel tests
-```
+<p align="center">
+  <img src="assets/project-structure.svg" width="100%" alt="Donu Task project structure in Xcode" />
+</p>
+
+<sub>The real folder structure of the app. Only file names are shown, the code stays private.</sub>
 
 ## Quality
 
